@@ -239,6 +239,21 @@ header p {
     background: radial-gradient(ellipse 60% 120% at center, #ff485a 0%, #ff485a 25%,  #75acff 89%, #75acff 100%);
 }
 
+.etsy-button {
+    margin-top: 10px;
+    background: #f8f9fa; /* Light gray background */
+    color: #6c757d; /* Muted text color */
+    border: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.etsy-button:hover {
+    background: #e9ecef;
+    color: #495057;
+    border-color: #ced4da;
+}
+
 .gen-button {
     width: auto; /* ou 30%, 150px, selon ton design */
     display: inline-block; /* pour qu'ils soient côte à côte si nécessaire */
