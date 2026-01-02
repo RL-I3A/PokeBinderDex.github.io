@@ -2315,8 +2315,8 @@ footer {
     position: absolute;
     bottom: 20px;
     left: 20px; /* moved to left side */
-    width: 220px;
-    height: 120px;
+    width: 202px;
+    height: 150px;
     transform: rotate(-3deg);
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
@@ -2350,7 +2350,7 @@ footer {
     height: 100%;
     object-fit: cover;
     /* Modifiez le pourcentage ici pour ajuster le cadrage vertical (0% = haut, 50% = centre, 100% = bas) */
-    object-position: center 30%;
+    object-position: center 8%;
     display: block;
 }
 
@@ -2371,8 +2371,8 @@ footer {
     background: white;
     color: var(--primary-color);
     padding: 4px 10px;
-    border-radius: 12px;
-    font-size: 0.75rem;
+    border-radius: 8px;
+    font-size: 0.7rem;
     font-weight: 800;
     text-transform: uppercase;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -2408,7 +2408,5 @@ footer {
         transform: scale(1.05);
     }
 
-    /* keep decorations visible on mobile by adjusting negative offsets */
-    .collab-tag { top: 6px; left: 6px; }
-    .collab-name { bottom: 6px; left: 6px; }
+
 }
