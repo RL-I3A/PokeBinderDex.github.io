@@ -89,6 +89,7 @@ body {
 }
 
 header {
+    position: relative;
     background: radial-gradient(ellipse 60% 120% at center, var(--primary-color) 0%, var(--primary-color) 25%, var(--dark-accent) 89%, var(--dark-accent) 100%);
     color: white;
     padding: 30px 0;
@@ -2306,4 +2307,108 @@ footer {
     .personalized-dex-banner:hover .card-4 { 
         transform: rotate(12deg) translateX(15px) translateY(-8px);
     }
+}
+
+/* Collab Announcement Styles */
+.collab-announcement {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px; /* moved to left side */
+    width: 220px;
+    height: 120px;
+    transform: rotate(-3deg);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.collab-video-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px solid white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    background: #000;
+}
+
+.collab-announcement:hover {
+    transform: rotate(0) scale(1.05);
+    z-index: 20;
+}
+
+.collab-announcement:hover .collab-video-container {
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+.collab-video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Modifiez le pourcentage ici pour ajuster le cadrage vertical (0% = haut, 50% = centre, 100% = bas) */
+    object-position: center 30%;
+    display: block;
+}
+
+.collab-decorations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.collab-tag {
+    position: absolute;
+    top: -10px;
+    left: -10px; /* stays outside top-left */
+    background: white;
+    color: var(--primary-color);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-shadow: none;
+    border: 2px solid white;
+}
+
+.collab-name {
+    position: absolute;
+    bottom: -10px;
+    left: -10px; /* moved to outside bottom-left to match overall placement */
+    background: var(--primary-color);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid white;
+}
+
+/* Responsive adjustments for Collab Announcement */
+@media (max-width: 1050px) {
+    .collab-announcement {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin: 40px auto 20px; /* more top space so tags aren't cut */
+        transform: rotate(0);
+    }
+    
+    .collab-announcement:hover {
+        transform: scale(1.05);
+    }
+
+    /* keep decorations visible on mobile by adjusting negative offsets */
+    .collab-tag { top: 6px; left: 6px; }
+    .collab-name { bottom: 6px; left: 6px; }
 }
