@@ -717,7 +717,7 @@ function displayStats(stats) {
                 <span class="promotion-icon">${promotionIcon}</span>
                 <span class="promotion-text">${promotionMessage}</span>
             </div>
-            <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="promotion-link">
+            <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="promotion-link">
                 Explore SoloDex Collection →
             </a>
         </div>
@@ -752,7 +752,7 @@ function displayStats(stats) {
                 genPromotion = `
                     <div class="gen-promotion">
                         <span class="gen-promo-text">INCREDIBLE ! You truly are the gen ${gen} expert!</span>
-                        <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="gen-promo-link">
+                        <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="gen-promo-link">
                             You at least deserves to get the best for your ${gen} collection
                         </a>
                     </div>
@@ -761,7 +761,7 @@ function displayStats(stats) {
                 genPromotion = `
                     <div class="gen-promotion">
                         <span class="gen-promo-text">🎯 ${gen} specialist!</span>
-                        <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="gen-promo-link">
+                        <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="gen-promo-link">
                             Display your love for ${gen}
                         </a>
                     </div>
@@ -797,7 +797,7 @@ function displayStats(stats) {
             <div class="promo-highlight">
                 🏅 Your strongest generation is <strong>${bestGeneration.gen}</strong> with ${bestGeneration.percentage.toFixed(1)}% completion!
             </div>
-            <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="generation-promo-link">
+            <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="generation-promo-link">
                 Discover awesome ways to showcase it with SoloDex →
             </a>
         `;
@@ -842,7 +842,7 @@ function displayStats(stats) {
                     <img src="assets/types/${favoriteType.name.toLowerCase()}.png" class="favorite-type-icon" alt="${favoriteType.name}" onerror="this.style.display='none'">
                     <span style="font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Your favorite type is ${favoriteType.name}!</span>
                 </div>
-                <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="type-analysis-link" 
+                <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="type-analysis-link" 
                    style="background: ${typeColor}; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 8px ${typeColor}40;">
                     ${favoriteType.name} pokemons deserves great pdfs : SoloDex →
                 </a>
@@ -922,7 +922,7 @@ function displayStats(stats) {
                 legendaryPromo = `
                     <div class="special-promotion legendary-master">
                         ✨ Legendary Master! You've caught ${stats.legendary.count} legendary Pokemon!
-                        <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="special-promo-link">
+                        <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="special-promo-link">
                             Show off your legendary collection →
                         </a>
                     </div>
@@ -957,7 +957,7 @@ function displayStats(stats) {
                 starterPromo = `
                     <div class="special-promotion starter-master">
                         🌟 Starter Collector! You have most starter Pokemon!
-                        <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="special-promo-link">
+                        <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="special-promo-link">
                             Organize your collection →
                         </a>
                     </div>
@@ -999,10 +999,10 @@ function displayStats(stats) {
                 Discover great ways to organize your collection !
             </p>
             <div class="cta-buttons">
-                <a href="https://pokebinderdx.github.io/#solodex" target="_blank" class="cta-primary">
+                <a href="https://pokebinderdex.github.io/#solodex" target="_blank" class="cta-primary">
                     🔍 Explore SoloDex Collection
                 </a>
-                <a href="https://pokebinderdx.github.io" target="_blank" class="cta-secondary">
+                <a href="https://pokebinderdex.github.io" target="_blank" class="cta-secondary">
                     📊 PokeBinderDex Hub
                 </a>
             </div>
