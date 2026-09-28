@@ -1,4 +1,4 @@
-# PokeBinderDex
+# 📖 PokeBinderDex
 
 Printable Pokédex, set and master set pages for Pokémon TCG collectors, plus a scanner that tells you which Pokémon are missing from your binder.
 
@@ -12,7 +12,7 @@ PokeBinderDex publishes print-ready A4 PDFs for organizing a Pokémon card colle
 
 This repository contains the source of the website: the storefront, the Binder Scanner and the PersonalizedDex generator.
 
-## Collections
+## 🃏 Collections
 
 - **SoloDex**: all 1025 Pokémon in four styles (black silhouette, blurred, pixel, color). Available in English, French, German, Spanish and Italian.
 - **SoloSet**: every card of a set (151, Shrouded Fables, Stellar Crown, Surging Spark), without variants.
@@ -22,7 +22,7 @@ This repository contains the source of the website: the storefront, the Binder S
 
 Bundles are also available for each family.
 
-## Binder Scanner
+## 🔍 Binder Scanner
 
 Take photos of your binder pages, upload up to 50 images and pick the language of your cards (English, French, Italian, German or Spanish). The scanner returns:
 
